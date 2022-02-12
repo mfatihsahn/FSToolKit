@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		88A2772727B7DE490051640B /* FSToolKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A2772627B7DE490051640B /* FSToolKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88A2772E27B7E9C00051640B /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A2772D27B7E9C00051640B /* UIViewController+Extensions.swift */; };
+		88A2773127B7F9C40051640B /* FSToolKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 88A2773027B7F9C40051640B /* FSToolKit.podspec */; };
+		88A2773327B7F9D50051640B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 88A2773227B7F9D50051640B /* README.md */; };
+		88A2773527B7F9DC0051640B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 88A2773427B7F9DC0051640B /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88A2772327B7DE490051640B /* FSToolKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FSToolKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A2772627B7DE490051640B /* FSToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSToolKit.h; sourceTree = "<group>"; };
 		88A2772D27B7E9C00051640B /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		88A2773027B7F9C40051640B /* FSToolKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = FSToolKit.podspec; sourceTree = SOURCE_ROOT; };
+		88A2773227B7F9D50051640B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		88A2773427B7F9DC0051640B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 		88A2772527B7DE490051640B /* FSToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				88A2773427B7F9DC0051640B /* LICENSE */,
+				88A2773227B7F9D50051640B /* README.md */,
+				88A2773027B7F9C40051640B /* FSToolKit.podspec */,
 				88A2772F27B7EA9D0051640B /* Extension */,
 				88A2772627B7DE490051640B /* FSToolKit.h */,
 			);
@@ -131,6 +140,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88A2773527B7F9DC0051640B /* LICENSE in Resources */,
+				88A2773327B7F9D50051640B /* README.md in Resources */,
+				88A2773127B7F9C40051640B /* FSToolKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
